@@ -28,7 +28,7 @@ function playSound()
 <script>
     $(document).ready(function(){
         setInterval(function(){
-            $("#count").load('2.php')
+            $("#count").load('display.php')
         }, 2000);
     });
 </script>
@@ -45,5 +45,10 @@ function playSound()
 </head>
 <body>
 <div id="count"></div>
+<br>
+
+<a href="insert.php" target="_blank">Insert a new record!</a>
+
+
 </body>
 </html>
