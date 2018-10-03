@@ -2,11 +2,13 @@
 
 this script counts the number of records in a mysql database in real time and plays a sound when you enter a new record.
 
-1. the file createtable.sql creates a secondary table that we will use to store the current number of records. in which we have to insert a single record with the current number of records from our "real" table.
+1. import the createdb.sql file into phpmyadmin. in this file we create a new database, the users table and the counter secondary table that we will use to store the value for comparison. 
 
-2. the back.php file compares the actual quantity with the inserted quantity and returns true/false
+2. in the configdb.php file we must modify the details of our database.
 
-3. file 2.php returns the actual amount from the "real table".
+3. the back.php file compares the values and updates the counter table and return true/false to activate the sound
 
-4. in the index.php file are called the two files (back and 2) every 3 seconds using jQuery.
+3. file display.php returns the counter of users table.
+
+4. in the index.php file are called the two files (back.php and display.php) every 2 seconds using jQuery.
 
