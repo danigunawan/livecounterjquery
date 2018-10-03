@@ -1,5 +1,7 @@
 # livecounterjquery
 
+Demo http://facundoq.site/livecounterjquery/
+
 this script counts the number of records in a mysql database in real time and plays a sound when you enter a new record.
 
 1. import the createdb.sql file into phpmyadmin. in this file we create a new database, the users table and the counter secondary table that we will use to store the value for comparison. 
