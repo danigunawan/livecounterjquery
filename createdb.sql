@@ -1,3 +1,7 @@
+CREATE DATABASE test_counter;
+
+use test_counter;
+
 CREATE TABLE counter (
 	currentvalue int (30) NOT NULL
 );
