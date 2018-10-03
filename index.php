@@ -19,7 +19,7 @@ function checkUpdate()
 
 function playSound()
 {
-    var audio = new Audio('https://www.soundjay.com/phone/telephone-ring-03a.mp3');
+    var audio = new Audio('http://www.soundjay.com/phone/telephone-ring-03a.mp3');
     audio.play();
 }
 </script>
