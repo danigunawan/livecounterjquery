@@ -2,7 +2,7 @@
 
 this script counts the number of records in a mysql database in real time and plays a sound when you enter a new record.
 
-1. the createtable.sql file creates a table that we will use to compare with the current number of users. in which we have to insert a single record with a value less than the actual quantity.
+1. the file createtable.sql creates a secondary table that we will use to store the current number of records. in which we have to insert a single record with the current number of records from our "real" table.
 
 2. the back.php file compares the actual quantity with the inserted quantity and returns true/false
 
